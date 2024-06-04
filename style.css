@@ -173,7 +173,13 @@ h2 {
         flex-direction: column;
         width: 100%;
     }
-    @media (max-width: 1024px) {
+    
+    .book-actions button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
     .container {
         padding: 20px;
         max-width: 600px;
@@ -225,10 +231,5 @@ h2 {
     
     .book-actions button {
         font-size: 12px;
-    }
-}
-    
-    .book-actions button {
-        width: 100%;
     }
 }
